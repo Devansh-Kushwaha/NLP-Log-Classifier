@@ -1,0 +1,154 @@
+Cluster 0:
+           nova.osapi_compute.wsgi.server [req-b9718cd8-f65e-49cc-8349-6cf7122af137 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2675118
+nova.osapi_compute.wsgi.server [req-4895c258-b2f8-488f-a2a3-4fae63982e48 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" HTTP status code -  200 len: 211 time: 0.0968180
+            nova.osapi_compute.wsgi.server [req-ee8bc8ba-9265-4280-9215-dbe000a41209 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" RCODE  200 len: 1874 time: 0.2280791
+      nova.osapi_compute.wsgi.server [req-f0bffbc3-5ab0-4916-91c1-0a61dd7d4ec2 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" Return code: 200 len: 1874 time: 0.2131531
+            nova.osapi_compute.wsgi.server [req-2bf7cfee-a236-42f3-8fb1-96fefab0b302 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" RCODE  200 len: 1874 time: 0.1794369
+
+Cluster 16:
+                                                                      nova.metadata.wsgi.server [-] 10.11.21.138,10.11.10.1 "GET /openstack/2013-10-17 HTTP/1.1" RCODE  200 len: 157 time: 0.0010941
+   nova.metadata.wsgi.server [req-61196723-e034-487d-82e0-9cc159c8572c - - - - -] 10.11.21.123,10.11.10.1 "GET /openstack/2013-10-17/vendor_data.json HTTP/1.1" status: 200 len: 124 time: 0.2335150
+nova.metadata.wsgi.server [req-7d3eeb2d-3948-433a-8002-d969d2f86863 - - - - -] 10.11.21.132,10.11.10.1 "GET /openstack/2012-08-10/meta_data.json HTTP/1.1" Return code: 200 len: 264 time: 0.2316251
+                                          nova.metadata.wsgi.server [-] 10.11.21.137,10.11.10.1 "GET /openstack/2013-10-17/meta_data.json HTTP/1.1" HTTP status code -  200 len: 967 time: 0.0013261
+     nova.metadata.wsgi.server [req-e0d4ce94-e0cb-41b5-9192-c6b9fdd49a94 - - - - -] 10.11.21.139,10.11.10.1 "GET /openstack/2012-08-10/meta_data.json HTTP/1.1" status: 200 len: 264 time: 0.2261620
+
+Cluster 9:
+Backup completed successfully.
+Backup completed successfully.
+Backup completed successfully.
+Backup completed successfully.
+Backup completed successfully.
+
+Cluster 57:
+Backup ended at 2025-08-08 13:06:23.
+Backup ended at 2025-06-01 06:27:38.
+Backup ended at 2025-11-16 08:17:13.
+Backup ended at 2025-07-18 17:06:54.
+Backup ended at 2025-08-18 14:29:26.
+
+Cluster 48:
+Disk cleanup completed successfully.
+Disk cleanup completed successfully.
+Disk cleanup completed successfully.
+Disk cleanup completed successfully.
+Disk cleanup completed successfully.
+
+Cluster 45:
+User User494 logged out.
+User User272 logged out.
+User User706 logged out.
+User User881 logged out.
+User User641 logged out.
+
+Cluster 4:
+File data_6169.csv uploaded successfully by user User953.
+File data_3847.csv uploaded successfully by user User175.
+File data_7366.csv uploaded successfully by user User282.
+File data_1206.csv uploaded successfully by user User359.
+File data_2127.csv uploaded successfully by user User577.
+
+Cluster 11:
+       nova.osapi_compute.wsgi.server [req-033d97b9-69e4-4acd-9029-f0d7b9370645 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" status: 404 len: 296 time: 0.0847020
+nova.osapi_compute.wsgi.server [req-d6e9cfb8-d914-48c3-b677-72bc73329c69 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" Status code -  404 len: 296 time: 0.0934131
+       nova.osapi_compute.wsgi.server [req-8c36e637-8e89-4cbe-813d-c5f46cc79818 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" status: 200 len: 380 time: 0.0919530
+  nova.osapi_compute.wsgi.server [req-0b7fefce-6f00-464a-969a-d6799e8bba35 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" Return code: 200 len: 380 time: 0.0926709
+        nova.osapi_compute.wsgi.server [req-60f50a9d-827b-4fc8-b8c7-dc0bbe15c936 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" RCODE  404 len: 296 time: 0.0870681
+
+Cluster 5:
+     nova.compute.claims [req-a07ac654-8e81-416d-bfbb-189116b07969 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: bf8c824d-f099-4433-a41e-e3da7578262e] Total memory: 64172 MB, used: 512.00 MB
+nova.compute.claims [req-d6986b54-3735-4a42-9074-0ba7d9717de9 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: af5f7392-f7d4-4298-b647-c98924c64aa1] memory limit: 96258.00 MB, free: 95746.00 MB
+nova.compute.claims [req-d82fab16-60f8-4c9f-bde8-f362f57bdd40 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] memory limit: 96258.00 MB, free: 95746.00 MB
+     nova.compute.claims [req-9118475d-6e72-48fa-9dee-e6b7d957dcd6 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] Total memory: 64172 MB, used: 512.00 MB
+     nova.compute.claims [req-4b4dd551-26d8-48e2-bd52-91793d2157bc 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] Total memory: 64172 MB, used: 512.00 MB
+
+Cluster 20:
+System reboot initiated by user User243.
+System reboot initiated by user User471.
+System reboot initiated by user User216.
+System reboot initiated by user User639.
+System reboot initiated by user User819.
+
+Cluster 15:
+Backup started at 2025-05-14 07:06:55.
+Backup started at 2025-02-15 20:00:19.
+Backup started at 2025-11-14 08:27:43.
+Backup started at 2025-12-09 10:19:11.
+Backup started at 2025-01-15 04:36:39.
+
+Cluster 21:
+ nova.metadata.wsgi.server [req-27e91939-3ba4-4d14-80e1-47d8fbb230ff - - - - -] 10.11.21.126,10.11.10.1 "GET /latest/meta-data/block-device-mapping/root HTTP/1.1" Status code -  200 len: 124 time: 0.2206309
+                                             nova.metadata.wsgi.server [-] 10.11.21.143,10.11.10.1 "GET /latest/meta-data/block-device-mapping/root HTTP/1.1" HTTP status code -  200 len: 124 time: 0.0009151
+            nova.metadata.wsgi.server [req-705dd9dc-0fad-4523-b0ef-0524abc6f12a - - - - -] 10.11.21.135,10.11.10.1 "GET /latest/meta-data/block-device-mapping/ HTTP/1.1" status: 200 len: 124 time: 0.2319629
+                                                 nova.metadata.wsgi.server [-] 10.11.21.129,10.11.10.1 "GET /latest/meta-data/block-device-mapping/ HTTP/1.1" HTTP status code -  200 len: 124 time: 0.0010171
+nova.metadata.wsgi.server [req-7fd3da99-a9b0-4dec-8a14-37be960fd707 - - - - -] 10.11.21.139,10.11.10.1 "GET /latest/meta-data/block-device-mapping/ HTTP/1.1" HTTP status code -  200 len: 124 time: 0.2223170
+
+Cluster 72:
+                                                             nova.metadata.wsgi.server [-] 10.11.21.136,10.11.10.1 "GET /latest/meta-data/placement/ HTTP/1.1" status: 200 len: 134 time: 0.0015550
+nova.metadata.wsgi.server [req-e5e061d6-f2aa-464b-9512-2fd6c7c9a812 - - - - -] 10.11.21.143,10.11.10.1 "GET /latest/meta-data/placement/ HTTP/1.1" HTTP status code -  200 len: 134 time: 0.4259689
+                                                 nova.metadata.wsgi.server [-] 10.11.21.132,10.11.10.1 "GET /latest/meta-data/placement/ HTTP/1.1" HTTP status code -  200 len: 134 time: 0.0007560
+                       nova.metadata.wsgi.server [req-ba4b4d89-3236-416c-999f-b42782557681 - - - - -] 10.11.21.143,10.11.10.1 "GET /latest/meta-data/ HTTP/1.1" RCODE  200 len: 328 time: 0.2230601
+                       nova.metadata.wsgi.server [req-cf86bdeb-2809-46ac-a163-99450b2985aa - - - - -] 10.11.21.141,10.11.10.1 "GET /latest/meta-data/ HTTP/1.1" RCODE  200 len: 328 time: 0.2267661
+
+Cluster 78:
+nova.compute.claims [req-9118475d-6e72-48fa-9dee-e6b7d957dcd6 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU
+nova.compute.claims [req-29a09cdb-3169-4c40-8bd1-552636286362 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU
+nova.compute.claims [req-a07ac654-8e81-416d-bfbb-189116b07969 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: bf8c824d-f099-4433-a41e-e3da7578262e] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU
+nova.compute.claims [req-3d26bc3d-373c-4269-b095-004aab7a9785 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: faf974ea-cba5-4e1b-93f4-3a3bc606006f] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU
+nova.compute.claims [req-6f9ecdfe-481c-4535-9bdc-45d86085d739 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU
+
+Cluster 69:
+nova.compute.claims [req-2d658d2c-7eff-414e-a68f-3f1c75c9e874 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Total disk: 15 GB, used: 0.00 GB
+nova.compute.claims [req-4b4dd551-26d8-48e2-bd52-91793d2157bc 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] Total disk: 15 GB, used: 0.00 GB
+nova.compute.claims [req-1162e278-3bf2-4b32-93b5-9c7ec218365e 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] Total disk: 15 GB, used: 0.00 GB
+nova.compute.claims [req-d82fab16-60f8-4c9f-bde8-f362f57bdd40 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] Total disk: 15 GB, used: 0.00 GB
+nova.compute.claims [req-868a5460-dbb6-416b-b4c4-a98abae6c847 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Total disk: 15 GB, used: 0.00 GB
+
+Cluster 58:
+nova.compute.claims [req-868a5460-dbb6-416b-b4c4-a98abae6c847 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Total vcpu: 16 VCPU, used: 0.00 VCPU
+nova.compute.claims [req-29a09cdb-3169-4c40-8bd1-552636286362 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Total vcpu: 16 VCPU, used: 0.00 VCPU
+nova.compute.claims [req-d82fab16-60f8-4c9f-bde8-f362f57bdd40 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] Total vcpu: 16 VCPU, used: 0.00 VCPU
+nova.compute.claims [req-3d26bc3d-373c-4269-b095-004aab7a9785 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: faf974ea-cba5-4e1b-93f4-3a3bc606006f] Total vcpu: 16 VCPU, used: 0.00 VCPU
+nova.compute.claims [req-4b4dd551-26d8-48e2-bd52-91793d2157bc 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] Total vcpu: 16 VCPU, used: 0.00 VCPU
+
+Cluster 33:
+nova.compute.claims [req-5c8f52bd-8e3c-41f0-95a5-7861d247cafa 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: d96a117b-0193-4549-bdcc-63b917273d1d] vcpu limit not specified, defaulting to unlimited
+nova.compute.claims [req-01d570b0-78a7-4719-b7a3-429fd7dc5a3f 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] vcpu limit not specified, defaulting to unlimited
+nova.compute.claims [req-4b4dd551-26d8-48e2-bd52-91793d2157bc 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] vcpu limit not specified, defaulting to unlimited
+nova.compute.claims [req-d82fab16-60f8-4c9f-bde8-f362f57bdd40 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] vcpu limit not specified, defaulting to unlimited
+nova.compute.claims [req-72b4858f-049e-49e1-b31e-b562c5018eaf 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 63a0d960-70b6-44c6-b606-491478a5cadf] vcpu limit not specified, defaulting to unlimited
+
+Cluster 23:
+nova.compute.claims [req-72b4858f-049e-49e1-b31e-b562c5018eaf 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 63a0d960-70b6-44c6-b606-491478a5cadf] disk limit not specified, defaulting to unlimited
+nova.compute.claims [req-d38f479d-9bb9-4276-9688-52607e8fd350 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 95960536-049b-41f6-9049-05fc479b6a7c] disk limit not specified, defaulting to unlimited
+nova.compute.claims [req-6a763803-4838-49c7-814e-eaefbaddee9d 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] disk limit not specified, defaulting to unlimited
+nova.compute.claims [req-a07ac654-8e81-416d-bfbb-189116b07969 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: bf8c824d-f099-4433-a41e-e3da7578262e] disk limit not specified, defaulting to unlimited
+nova.compute.claims [req-01d570b0-78a7-4719-b7a3-429fd7dc5a3f 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] disk limit not specified, defaulting to unlimited
+
+Cluster 117:
+     Service health check was not successful because of SSL certificate validation failures.
+                          Invalid SSL certificate resulted in a failed service health check.
+Service health check failure was due to an invalid or improperly configured SSL certificate.
+                  An issue with the SSL certificate caused the service health check to fail.
+                      Service health check failure was caused by an expired SSL certificate.
+
+Cluster 102:
+nova.metadata.wsgi.server [req-3a439e39-d7f5-4cdf-a08c-c530a5bc9b23 - - - - -] 10.11.21.133,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" RCODE  404 len: 176 time: 0.2186041
+                                                 nova.metadata.wsgi.server [-] 10.11.21.138,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" RCODE  404 len: 176 time: 0.0009220
+                                                nova.metadata.wsgi.server [-] 10.11.21.129,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" status: 404 len: 176 time: 0.0006950
+                                    nova.metadata.wsgi.server [-] 10.11.21.131,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" HTTP status code -  404 len: 176 time: 0.0015490
+                                                 nova.metadata.wsgi.server [-] 10.11.21.139,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" RCODE  404 len: 176 time: 0.0010579
+
+Cluster 12:
+  nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=512MB phys_disk=15GB used_disk=0GB total_vcpus=16 used_vcpus=0 pci_stats=[]
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]
+
+Cluster 63:
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 0
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 1
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 0
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 0
+nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 1
+
