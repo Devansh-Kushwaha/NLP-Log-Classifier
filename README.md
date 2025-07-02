@@ -68,8 +68,4 @@ The output will be a CSV with an added `target_label` column representing the pr
 
 ## Disclaimer
 
-**All Rights Reserved**  
-© Codebasics Inc  
-© LearnerX Pvt Ltd
-
 This project and its content are provided for educational purposes only. Commercial use is prohibited without proper authorization.
